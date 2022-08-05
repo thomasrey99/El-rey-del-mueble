@@ -1,0 +1,43 @@
+.dropdown-item{
+    color: $color-celeste;
+}
+
+.nav-link{
+    color: $color-celeste;
+    opacity: 0.5;
+    &:hover{
+        text-shadow: 0px 0px 10px #6098FA;
+        opacity: 1;
+        color: #6098FA;
+    }
+}
+
+.navbar-brand{
+    color: $color-celeste;
+    &:hover{
+        color: #6098FA;
+    }
+}
+
+.offcanvas-title{
+    color: $color-violeta;
+}
+
+.btn.btn-outline-success{
+    color: $color-violeta;
+    border-color: $color-violeta;
+    &:hover{
+        background-color: $color-violeta;
+        color: white;
+    }
+    &:focus{
+        box-shadow: 0px 0px 15px $color-violeta;
+    }
+}
+
+.navbar-toggler{
+    border-color: $color-celeste;
+    &:focus{
+        box-shadow: 0px 0px 10px $color-celeste;
+    }
+}
