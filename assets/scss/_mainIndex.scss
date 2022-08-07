@@ -1,0 +1,8 @@
+.presentacion{
+    h2{
+        @include est-fuente ($titleFont, $textSize, bold, rgb(255, 255, 255), center);
+        background: linear-gradient(to left, $color-celeste, $color-violeta);
+        padding: 10px;
+        height: 35px;
+    }
+}

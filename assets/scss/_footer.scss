@@ -1,0 +1,53 @@
+.footer{
+    padding: 40px 0;
+    background-color: white;
+    .social{
+        text-align: center;
+        padding-bottom: 25px;
+        color: $color-celeste;
+        a{
+            font-size: 24px;
+            color: $color-celeste;
+            border: 1px solid $color-violeta;
+            width: 40px;
+            height: 40px;
+            line-height: 38px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            margin: 0 8px;
+            opacity: 0.75;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+    ul{
+        margin-top: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 0;
+        text-align: center;
+        li{
+            display: inline-block;
+            padding: 0 15px;
+            
+        }
+        a{
+            color: $color-celeste;
+            text-decoration: none;
+            opacity: 0.8;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+    .copyrigth{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 13px;
+        color: $color-celeste;
+    }
+}

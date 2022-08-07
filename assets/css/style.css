@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: black;
+  background: rgb(255, 254, 254);
 }
 
 .encabezado {
@@ -62,7 +62,7 @@ body {
   font-size: 1.3rem;
   letter-spacing: 10px;
   opacity: 0;
-  color: #E01DAE;
+  color: #E01D85;
   text-align: center;
   font-weight: bold;
   animation-name: resplandor;
@@ -106,6 +106,70 @@ body {
   opacity: 1;
 }
 
+.presentacion h2 {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background: linear-gradient(to left, #6098FA, #E01D85);
+  padding: 10px;
+  height: 35px;
+}
+
+.footer {
+  padding: 40px 0;
+  background-color: white;
+}
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #6098FA;
+}
+.footer .social a {
+  font-size: 24px;
+  color: #6098FA;
+  border: 1px solid #E01D85;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.footer .social a:hover {
+  opacity: 1;
+}
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer ul a {
+  color: #6098FA;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer ul a:hover {
+  opacity: 1;
+}
+.footer .copyrigth {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #6098FA;
+}
+
 .dropdown-item {
   color: #6098FA;
 }
@@ -128,19 +192,19 @@ body {
 }
 
 .offcanvas-title {
-  color: #E01DAE;
+  color: #E01D85;
 }
 
 .btn.btn-outline-success {
-  color: #E01DAE;
-  border-color: #E01DAE;
+  color: #E01D85;
+  border-color: #E01D85;
 }
 .btn.btn-outline-success:hover {
-  background-color: #E01DAE;
+  background-color: #E01D85;
   color: white;
 }
 .btn.btn-outline-success:focus {
-  box-shadow: 0px 0px 15px #E01DAE;
+  box-shadow: 0px 0px 15px #E01D85;
 }
 
 .navbar-toggler {

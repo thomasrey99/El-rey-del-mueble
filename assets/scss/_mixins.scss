@@ -1,2 +1,9 @@
 
 // estructura de textos
+@mixin est-fuente ($t-fuente, $t-size, $t-weigth, $t-color, $align) {
+    font-family: $t-fuente;
+    font-size: $t-size;
+    font-weight: $t-weigth;
+    color: $t-color;
+    text-align: $align;
+}
