@@ -4,38 +4,43 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
-
-    .titulo{
-        font-family: $titleFont;
-        font-size: $titleSize;
-        height: 10vh;
-        letter-spacing: 8px;
-        text-align: center;
-        color: $color-celeste;
-        animation-name: aparecer;
-        animation-duration: 1s;
-        animation-iteration-count: 1;
-    }
-
-    @keyframes aparecer{
-        0%{
-            opacity: 0;
-        }
-        25%{
-            opacity: 0.25;
-        }
-        50%{
-            opacity: 0.5;
-        }
-        75%{
-            opacity: 0.75;
-        }
-        100%{
-            opacity: 1;
-        }
+    .menu{
+        height: 9%;
     }
 
    .headerContenido{
+
+        height: 91%;
+
+        .titulo{
+            font-family: $titleFont;
+            font-size: $titleSize;
+            height: 10vh;
+            letter-spacing: 8px;
+            text-align: center;
+            color: $color-celeste;
+            animation-name: aparecer;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes aparecer{
+            0%{
+                opacity: 0;
+            }
+            25%{
+                opacity: 0.25;
+            }
+            50%{
+                opacity: 0.5;
+            }
+            75%{
+                opacity: 0.75;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
 
         .parrafo{
             font-family: $font;
@@ -87,5 +92,7 @@
                 opacity: 1;
             }
         }
-   }
+    }
 }
+
+

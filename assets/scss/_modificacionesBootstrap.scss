@@ -1,3 +1,4 @@
+
 .dropdown-item{
     color: $color-celeste;
 }
@@ -13,7 +14,7 @@
 }
 
 .navbar-brand{
-    color: $color-celeste;
+    color: black;
     &:hover{
         color: $color-celeste;
     }
@@ -36,8 +37,19 @@
 }
 
 .navbar-toggler{
-    border-color: $color-celeste;
+    border-color: none;
     &:focus{
-        box-shadow: 0px 0px 10px $color-celeste;
+        box-shadow:none;
     }
+}
+.card-title{
+    @include est-fuente ($font, $subtSize, bold, $color-violeta, start)
+}
+.card-text{
+    @include est-fuente ($font, $textSize, none, black, start)
+}
+.btn.btn-primary{
+    background-color: $color-celeste;
+    border-color: $color-celeste;
+    font-family:'Nunito Sans', sans-serif;
 }

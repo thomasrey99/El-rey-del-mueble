@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- link css bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- link icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- link css -->
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <title>Productos-El rey del mueble</title>
+    </head>
+    <body class="container-fluid">
+        <header class="encabezado container-fluid d-flex flex-column justify-content-between">
+            
+          <div class="menu">
+
+            <!-- menu principal -->
+            <nav class="navbar" style="background-color: rgba(0, 0, 0, 0);">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Inicio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Cuenta
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./login.html">Iniciar sesion</a></li>
+                          <li><a class="dropdown-item" href="./registro.html">Registrarse</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="¿Que buscas?" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <!-- cierra menu principal -->
+          </div>
+
+            <!-- bienvenida -->
+            <div class="headerContenido d-flex flex-column justify-content-center   align-items-center">
+
+                <!-- titulo -->
+                <h1 class="titulo d-flex justify-content-center align-items-center">Catalogo</h1>
+
+                <p class="parrafo my-4">Productos 100% artesanales</p>
+
+                <a href="#inicio" class="btnNeon my-4">chusmear</a>
+            </div>
+
+        </header>
+        <!-- cierra encabezado -->
+
+        <main class="mainProductos col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 my-4 p-3">
+
+          <!-- categorias productos -->
+          <div class="categoriasProductos my-5">
+
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#mesas">Mesas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sillas">Sillas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#alacenas">Alacenas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#escritorios">Escritorios</a>
+              </li>
+            </ul>
+
+          </div>
+          
+          <!-- prductos -->
+          <div class="productos col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 d-flex flex-column justify-content-center align-items-center gap-5 ">
+
+            <!-- mesas -->
+            <h2 id="mesas" class="my-4">Mesas</h2>
+            
+            <div class="mesas col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 d-flex flex-column flex-sm-column flex-md-row flex-xl-row flex-xxl-row align-items-center justify-content-center gap-5">
+              <!-- producto 1 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/mesa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <!-- producto 2 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/mesa2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              
+              <!-- producto 3 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/mesa_ratona.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- sillas -->
+            <h2 id="sillas" class="my-4">Sillas</h2>
+
+            <div class="sillas col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 d-flex flex-column flex-sm-column flex-md-row flex-xl-row flex-xxl-row align-items-center justify-content-center  gap-5">
+
+              <!-- producto 4 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/silla.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <!-- producto 5 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/silla_kentucki.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              
+              <!-- producto 6 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/silla3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- alacenas -->
+            <h2 id="alacenas" class="my-4">Alacenas</h2>
+
+            <div class="alacena col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 d-flex flex-column flex-sm-column flex-md-row flex-xl-row flex-xxl-row align-items-center justify-content-center gap-5">
+
+              <!-- producto 7 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/alacena.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <!-- producto 8 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/alacena2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              
+              <!-- producto 9 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/alacena3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- escritorios -->
+            <h2 id="escritorios" class="my-4">Escritorios</h2>
+
+            <div class="escritorios col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 d-flex flex-column flex-sm-column flex-md-row flex-xl-row flex-xxl-row align-items-center justify-content-center gap-5">
+
+              <!-- producto 10 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/escritorio.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <!-- producto 11 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/escritorio2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              
+              <!-- producto 12 -->
+              <div class="card" style="width: 18rem;">
+                <img src="../assets/img/productos/escritorio3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- cierra productos -->
+        </main>
+         
+        <!-- footer -->
+        <footer class="footer">
+
+          <!-- redes -->
+          <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+
+          <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../pages/productos.html">Productos</a></li>
+              <li><a href="../pages/contacto.html">Contacto</a></li>
+              <li><a href="../pages/login.html">Log in</a></li>
+          </ul>
+          <!-- end redes -->
+
+          <!-- copyrigth -->
+          <p class="copyrigth">©thomas rey, all rigths reserved</p>
+
+      </footer>
+      <!--end footer  -->
+        
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- link css bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- link icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- link css -->
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <title>Iniciar sesion-El rey del mueble</title>
+    </head>
+    <body class="container-fluid">
+        <main class="mainLoginRegistro">
+            <!-- menu principal -->
+            <nav class="navbar" style="background-color: rgba(0, 0, 0, 0);">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Menu</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Inicio</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cuenta
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./login.html">Iniciar sesion</a></li>
+                            <li><a class="dropdown-item" href="./registro.html">Registrarse</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="¿Que buscas?" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- cierra menu principal -->
+            </div>
+
+            <!-- formulario login -->
+
+            <div class="login-registro">
+                <form class="form">
+
+                    <h1 class="my-2 py-2">Iniciar sesion</h1>
+      
+                    <p type="Email"><input type="email" placeholder="indique su email" required></p>
+      
+                    <p type="Password"><input type="passwor" placeholder="indique su contraseña" required></p>
+
+                    <button>Iniciar sesion</button>
+      
+                </form>
+                <p>¿Usted no posee una cuenta? <a href="../pages/registro.html">Registrarse</a></p>
+            </div>
+        </main>
+         
+        <!-- footer -->
+        <footer class="footer">
+
+          <!-- redes -->
+          <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+
+          <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../pages/productos.html">Productos</a></li>
+              <li><a href="../pages/contacto.html">Contacto</a></li>
+              <li><a href="../pages/login.html">Log in</a></li>
+          </ul>
+          <!-- end redes -->
+
+          <!-- copyrigth -->
+          <p class="copyrigth">©thomas rey, all rigths reserved</p>
+
+      </footer>
+      <!--end footer  -->
+        
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      
+    </body>
+</html>

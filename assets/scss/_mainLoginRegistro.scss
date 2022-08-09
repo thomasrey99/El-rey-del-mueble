@@ -1,0 +1,79 @@
+.mainLoginRegistro{
+    height:auto;
+    .login-registro{
+        h1{
+            @include est-fuente( $font, $titleSize, none, $color-violeta, center)
+        }
+        .form{
+            width: 400px;
+            height: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 40px -10px #000;
+            margin: calc(50vh - 220px) auto;
+            padding: 20px 30px;
+            max-width: calc(100vw - 40px);
+            box-sizing: border-box;
+            font-family: $font;
+            position: relative;
+            h3{
+                color: $color-celeste;
+            }
+            P{
+                &:before{
+                    content: attr(type);
+                    display: block;
+                    margin: 28px 0 0;
+                    font-size: 14px;
+                    font-family: $titleFont;
+                    color: $color-violeta;
+                }
+            }
+            input{
+                width: 100%;
+                box-sizing: border-box;
+                background: none;
+                padding: 5px;
+                outline: none;
+                resize: none;
+                border: 0;
+                font-family: $font;
+                transition: all .3s;
+                border-bottom: 2px solid $color-violeta;
+                &:focus{
+                    border-bottom: 2px solid $color-celeste;
+                }
+            }
+            button{
+                padding: 8px 12px;
+                margin: 8px 0 0;
+                font-family: $font;
+                border: 2px solid $color-celeste;
+                background-color: white;
+                color: $color-celeste;
+                cursor: pointer;
+                transition: all .3s;
+                &:hover{
+                    color: white;
+                    background-color: $color-celeste;
+                }
+            }
+        }
+        p{
+            @include est-fuente($font, $textSize, none, $color-celeste, center);
+            a{
+                text-decoration: none;
+                color: $color-violeta;
+            }
+        }
+        .ubicacion{
+            h3{
+                @include est-fuente( $titleFont, $titleSize, none, $color-violeta, center)
+            }
+            iframe{
+                width: 50vw;
+                height: 300px;
+            }
+        }    
+    }
+}

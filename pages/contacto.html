@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- link css bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- link icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- link css -->
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <title>Contacto-El rey del mueble</title>
+    </head>
+    <body class="container-fluid">
+        <header class="encabezado container-fluid d-flex flex-column justify-content-between">
+            
+          <div class="menu">
+
+            <!-- menu principal -->
+            <nav class="navbar" style="background-color: rgba(0, 0, 0, 0);">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Inicio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Cuenta
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./login.html">Iniciar sesion</a></li>
+                          <li><a class="dropdown-item" href="./registro.html">Registrarse</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="¿Que buscas?" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <!-- cierra menu principal -->
+          </div>
+
+            <!-- bienvenida -->
+            <div class="headerContenido d-flex flex-column justify-content-center   align-items-center">
+
+                <!-- titulo -->
+                <h1 class="titulo d-flex justify-content-center align-items-center">Contacto</h1>
+
+                <p class="parrafo my-4">Danos tu idea, nosotros la presupuestamos</p>
+
+                <a href="#inicio" class="btnNeon my-4">Contactar</a>
+            </div>
+
+        </header>
+        <main class="mainContacto col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 flex-column flex-sm-column flex-md-column flex-xl-row flex-xxl-row my-2">
+
+          <!-- contacto -->
+          <div class="formContacto d-flex flex-column flex-sm-column flex-md-column flex-xl-column flex-xxl-column justify-content-around align-items-center flex-wrap">
+            <h2 class="py-3 my-3">Solicita tu presupuesto</h2>
+            <!-- formulario -->
+            <form class="form">
+
+              <h3 class="my-2 py-2">Danos tu idea</h3>
+
+              <p type="Nombre"><input type="text" placeholder="indique su Nombre"></p>
+
+              <p type="email"><input type="email" placeholder="indique su email"></p>
+
+              <p type="mensaje"><input type="text" placeholder="indique sus necesidades en este campo"></p>
+
+
+              <button>Solicitar presupuesto</button>
+
+            </form>
+
+            <!-- ubicacion -->
+            <div class="ubicacion">
+              <h3 class="py-3 my-3">ubicacion</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.2446187090327!2d-58.82344378524949!3d-34.673775180441474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc949b23309509%3A0x14c5f0d1f5429e0d!2sMonteagudo%201269%2C%20B1744LKY%20Moreno%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1660001659447!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </main>
+         
+        <!-- footer -->
+        <footer class="footer">
+
+          <!-- redes -->
+          <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+
+          <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../pages/productos.html">Productos</a></li>
+              <li><a href="../pages/contacto.html">Contacto</a></li>
+              <li><a href="../pages/login.html">Log in</a></li>
+          </ul>
+          <!-- end redes -->
+
+          <!-- copyrigth -->
+          <p class="copyrigth">©thomas rey, all rigths reserved</p>
+
+      </footer>
+      <!--end footer  -->
+        
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      
+    </body>
+</html>

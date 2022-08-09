@@ -1,0 +1,7 @@
+.mainProductos{
+    .productos{
+        h2{
+            @include est-fuente($titleFont, $subtSize, none, $color-violeta, center);
+        }
+    }
+}

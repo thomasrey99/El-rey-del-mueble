@@ -1,8 +1,98 @@
-.presentacion{
-    h2{
-        @include est-fuente ($titleFont, $textSize, bold, rgb(255, 255, 255), center);
-        background: linear-gradient(to left, $color-celeste, $color-violeta);
-        padding: 10px;
-        height: 35px;
+
+.mainInicio{    
+    .presentacion{
+        height: 100vh;
+        h2{
+            @include est-fuente ($titleFont, $textSize, bold, rgb(255, 255, 255), center);
+            background: linear-gradient(to left, $color-celeste, $color-violeta);
+        }
+        .bienvenida{
+            height: 90%;
+            .reseña{
+                
+                h3{
+                    @include est-fuente ($titleFont, $textSize, none, $color-violeta, center);
+                    
+                }
+                p{
+                    @include est-fuente ($font, $textSize, none, $color-celeste, center);
+                    a{
+                        text-decoration: none;
+                        color: rgb(241, 147, 7);
+                    }
+                }
+            }
+        }
+    }
+    .nosotros{
+        height: 100vh;
+        @media screen and (max-width: 540px){
+            height: auto;
+        }
+        @media screen and (max-width: 768px){
+            height: auto;
+        }
+        @media screen and (max-width: 1200px){
+            height: auto;
+        }
+        .descripcion{
+            h2{
+                @include est-fuente ($titleFont, $textSize, bold, rgb(255, 255, 255), center);
+                background: linear-gradient(to left, $color-celeste, $color-violeta);
+            }
+        }
+        .tarjetas{
+            height: 90%;
+            background: linear-gradient(to bottom, $color-violeta, $color-celeste);
+            .tarjeta{
+                position: relative;
+                width: 250px;
+                height: 350px;
+                border-radius: 10px;
+                box-shadow: 2px 3px 5px $color-violeta;
+                background-color: white;
+                .contenido{
+                    position: relative;
+                    z-index: 100;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    text-align: center;
+                    padding: 20px;
+                    span{
+                        position: absolute;
+                        width: 350px;
+                        height: 200px; 
+                        background: linear-gradient(to right, $color-celeste, $color-violeta);
+                        transform: rotate(-35deg);
+                        top: -50px;
+                        left: -100px
+                    }
+                    .img{
+                        height: 50%;
+                        img{
+                            position: relative;
+                            width: 150px;
+                            height: 150px;
+                            border-radius: 50%;
+                            object-fit: cover;
+                            box-shadow: 0px 0px 10px $color-celeste;
+                        }
+                    }
+                    h4{
+                        @include est-fuente ($titleFont, $textSize, none, $color-celeste, center);
+                        margin-bottom: 5px;
+                    }
+                    h6{
+                        @include est-fuente ($font, 13px, none, $color-violeta, center)
+                    }
+                    p{
+                        @include est-fuente ($font, $textSize, none, $color-celeste, center)
+                    }
+                }
+            }
+        
+        }
     }
 }
