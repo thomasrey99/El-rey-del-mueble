@@ -1,10 +1,11 @@
 
 .mainInicio{    
     .presentacion{
-        height: 100vh;
+        height: auto;
         h2{
             @include est-fuente ($titleFont, $textSize, bold, rgb(255, 255, 255), center);
             background: linear-gradient(to left, $color-celeste, $color-violeta);
+            border-radius: 20px;
         }
         .bienvenida{
             height: 90%;
@@ -39,11 +40,11 @@
             h2{
                 @include est-fuente ($titleFont, $textSize, bold, rgb(255, 255, 255), center);
                 background: linear-gradient(to left, $color-celeste, $color-violeta);
+                border-radius: 20px;
             }
         }
         .tarjetas{
             height: 90%;
-            background: linear-gradient(to bottom, $color-violeta, $color-celeste);
             .tarjeta{
                 position: relative;
                 width: 250px;
@@ -51,6 +52,10 @@
                 border-radius: 10px;
                 box-shadow: 2px 3px 5px $color-violeta;
                 background-color: white;
+                transition: all 0.3s;
+                &:hover{
+                    transform: scale(1.1);
+                }
                 .contenido{
                     position: relative;
                     z-index: 100;

@@ -114,7 +114,7 @@ body {
 }
 
 .mainInicio .presentacion {
-  height: 100vh;
+  height: auto;
 }
 .mainInicio .presentacion h2 {
   font-family: "Rubik Mono One", sans-serif;
@@ -123,6 +123,7 @@ body {
   color: rgb(255, 255, 255);
   text-align: center;
   background: linear-gradient(to left, #6098FA, #E01D85);
+  border-radius: 20px;
 }
 .mainInicio .presentacion .bienvenida {
   height: 90%;
@@ -170,10 +171,10 @@ body {
   color: rgb(255, 255, 255);
   text-align: center;
   background: linear-gradient(to left, #6098FA, #E01D85);
+  border-radius: 20px;
 }
 .mainInicio .nosotros .tarjetas {
   height: 90%;
-  background: linear-gradient(to bottom, #E01D85, #6098FA);
 }
 .mainInicio .nosotros .tarjetas .tarjeta {
   position: relative;
@@ -182,6 +183,10 @@ body {
   border-radius: 10px;
   box-shadow: 2px 3px 5px #E01D85;
   background-color: white;
+  transition: all 0.3s;
+}
+.mainInicio .nosotros .tarjetas .tarjeta:hover {
+  transform: scale(1.1);
 }
 .mainInicio .nosotros .tarjetas .tarjeta .contenido {
   position: relative;
